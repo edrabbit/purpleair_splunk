@@ -1,0 +1,11 @@
+# Your Splunk server and HEC token
+hec_token = "12345678-abcd-1234-1234-123456789102"
+hec_server = "https://yourserver.splunkcloud.com:8088"
+
+# Purple Air sensors to check
+# If you don't know the sensor ID, go to https://www.purpleair.com/json to get all of them
+# and then ctrl+f to find the one you want.
+# If you want to get both A & B sensors, make sure you're using the Parent Sensor.
+
+# 16057 = South Beach (the closest sensor to the Splunk offices
+sensors = [16057]
